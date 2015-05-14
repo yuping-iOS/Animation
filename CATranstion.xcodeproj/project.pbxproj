@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EAD92A91B044904005CD06C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD92A81B044904005CD06C /* main.m */; };
+		7EAD92AC1B044904005CD06C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD92AB1B044904005CD06C /* AppDelegate.m */; };
+		7EAD92AF1B044904005CD06C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD92AE1B044904005CD06C /* ViewController.m */; };
+		7EAD92B21B044904005CD06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92B01B044904005CD06C /* Main.storyboard */; };
+		7EAD92B41B044904005CD06C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92B31B044904005CD06C /* Images.xcassets */; };
+		7EAD92B71B044905005CD06C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92B51B044904005CD06C /* LaunchScreen.xib */; };
+		7EAD92C31B044905005CD06C /* CATranstionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD92C21B044905005CD06C /* CATranstionTests.m */; };
+		7EAD92CD1B044911005CD06C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92CC1B044911005CD06C /* 1.jpg */; };
+		7EAD92CE1B044911005CD06C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92CC1B044911005CD06C /* 1.jpg */; };
+		7EAD92D01B044916005CD06C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92CF1B044916005CD06C /* 2.jpg */; };
+		7EAD92D11B044916005CD06C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EAD92CF1B044916005CD06C /* 2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EAD92BD1B044905005CD06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EAD929B1B044904005CD06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EAD92A21B044904005CD06C;
+			remoteInfo = CATranstion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EAD92A31B044904005CD06C /* CATranstion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATranstion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAD92A71B044904005CD06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAD92A81B044904005CD06C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EAD92AA1B044904005CD06C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EAD92AB1B044904005CD06C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EAD92AD1B044904005CD06C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EAD92AE1B044904005CD06C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EAD92B11B044904005CD06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EAD92B31B044904005CD06C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EAD92B61B044905005CD06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7EAD92BC1B044905005CD06C /* CATranstionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATranstionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAD92C11B044905005CD06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAD92C21B044905005CD06C /* CATranstionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATranstionTests.m; sourceTree = "<group>"; };
+		7EAD92CC1B044911005CD06C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		7EAD92CF1B044916005CD06C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EAD92A01B044904005CD06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EAD92B91B044905005CD06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EAD929A1B044904005CD06C = {
+			isa = PBXGroup;
+			children = (
+				7EAD92A51B044904005CD06C /* CATranstion */,
+				7EAD92BF1B044905005CD06C /* CATranstionTests */,
+				7EAD92A41B044904005CD06C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EAD92A41B044904005CD06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD92A31B044904005CD06C /* CATranstion.app */,
+				7EAD92BC1B044905005CD06C /* CATranstionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EAD92A51B044904005CD06C /* CATranstion */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD92AA1B044904005CD06C /* AppDelegate.h */,
+				7EAD92AB1B044904005CD06C /* AppDelegate.m */,
+				7EAD92AD1B044904005CD06C /* ViewController.h */,
+				7EAD92AE1B044904005CD06C /* ViewController.m */,
+				7EAD92B01B044904005CD06C /* Main.storyboard */,
+				7EAD92B31B044904005CD06C /* Images.xcassets */,
+				7EAD92B51B044904005CD06C /* LaunchScreen.xib */,
+				7EAD92CC1B044911005CD06C /* 1.jpg */,
+				7EAD92CF1B044916005CD06C /* 2.jpg */,
+				7EAD92A61B044904005CD06C /* Supporting Files */,
+			);
+			path = CATranstion;
+			sourceTree = "<group>";
+		};
+		7EAD92A61B044904005CD06C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD92A71B044904005CD06C /* Info.plist */,
+				7EAD92A81B044904005CD06C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EAD92BF1B044905005CD06C /* CATranstionTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD92C21B044905005CD06C /* CATranstionTests.m */,
+				7EAD92C01B044905005CD06C /* Supporting Files */,
+			);
+			path = CATranstionTests;
+			sourceTree = "<group>";
+		};
+		7EAD92C01B044905005CD06C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD92C11B044905005CD06C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EAD92A21B044904005CD06C /* CATranstion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EAD92C61B044905005CD06C /* Build configuration list for PBXNativeTarget "CATranstion" */;
+			buildPhases = (
+				7EAD929F1B044904005CD06C /* Sources */,
+				7EAD92A01B044904005CD06C /* Frameworks */,
+				7EAD92A11B044904005CD06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATranstion;
+			productName = CATranstion;
+			productReference = 7EAD92A31B044904005CD06C /* CATranstion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EAD92BB1B044905005CD06C /* CATranstionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EAD92C91B044905005CD06C /* Build configuration list for PBXNativeTarget "CATranstionTests" */;
+			buildPhases = (
+				7EAD92B81B044905005CD06C /* Sources */,
+				7EAD92B91B044905005CD06C /* Frameworks */,
+				7EAD92BA1B044905005CD06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EAD92BE1B044905005CD06C /* PBXTargetDependency */,
+			);
+			name = CATranstionTests;
+			productName = CATranstionTests;
+			productReference = 7EAD92BC1B044905005CD06C /* CATranstionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EAD929B1B044904005CD06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yuping;
+				TargetAttributes = {
+					7EAD92A21B044904005CD06C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7EAD92BB1B044905005CD06C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7EAD92A21B044904005CD06C;
+					};
+				};
+			};
+			buildConfigurationList = 7EAD929E1B044904005CD06C /* Build configuration list for PBXProject "CATranstion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EAD929A1B044904005CD06C;
+			productRefGroup = 7EAD92A41B044904005CD06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EAD92A21B044904005CD06C /* CATranstion */,
+				7EAD92BB1B044905005CD06C /* CATranstionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EAD92A11B044904005CD06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAD92B21B044904005CD06C /* Main.storyboard in Resources */,
+				7EAD92CD1B044911005CD06C /* 1.jpg in Resources */,
+				7EAD92D01B044916005CD06C /* 2.jpg in Resources */,
+				7EAD92B71B044905005CD06C /* LaunchScreen.xib in Resources */,
+				7EAD92B41B044904005CD06C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EAD92BA1B044905005CD06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAD92D11B044916005CD06C /* 2.jpg in Resources */,
+				7EAD92CE1B044911005CD06C /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EAD929F1B044904005CD06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAD92AF1B044904005CD06C /* ViewController.m in Sources */,
+				7EAD92AC1B044904005CD06C /* AppDelegate.m in Sources */,
+				7EAD92A91B044904005CD06C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EAD92B81B044905005CD06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAD92C31B044905005CD06C /* CATranstionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EAD92BE1B044905005CD06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EAD92A21B044904005CD06C /* CATranstion */;
+			targetProxy = 7EAD92BD1B044905005CD06C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EAD92B01B044904005CD06C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAD92B11B044904005CD06C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EAD92B51B044904005CD06C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EAD92B61B044905005CD06C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EAD92C41B044905005CD06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EAD92C51B044905005CD06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EAD92C71B044905005CD06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATranstion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EAD92C81B044905005CD06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATranstion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EAD92CA1B044905005CD06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CATranstionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATranstion.app/CATranstion";
+			};
+			name = Debug;
+		};
+		7EAD92CB1B044905005CD06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CATranstionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATranstion.app/CATranstion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EAD929E1B044904005CD06C /* Build configuration list for PBXProject "CATranstion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAD92C41B044905005CD06C /* Debug */,
+				7EAD92C51B044905005CD06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EAD92C61B044905005CD06C /* Build configuration list for PBXNativeTarget "CATranstion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAD92C71B044905005CD06C /* Debug */,
+				7EAD92C81B044905005CD06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EAD92C91B044905005CD06C /* Build configuration list for PBXNativeTarget "CATranstionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAD92CA1B044905005CD06C /* Debug */,
+				7EAD92CB1B044905005CD06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EAD929B1B044904005CD06C /* Project object */;
+}
